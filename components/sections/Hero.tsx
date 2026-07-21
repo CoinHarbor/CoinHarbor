@@ -23,13 +23,14 @@ export default function Hero() {
         <div className="absolute bottom-0 left-1/2 h-96 w-96 -translate-x-1/2 rounded-full bg-emerald-500/10 blur-3xl" />
       </div>
 
-      <div className="relative z-10 mx-auto grid min-h-screen max-w-7xl items-center gap-16 px-6 pt-32 pb-20 lg:grid-cols-2">
+      <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-16 px-6 pt-28 pb-20 lg:min-h-screen lg:grid-cols-2">
         {/* LEFT SIDE */}
-        <motion.div
-          initial={{ opacity: 0, x: -40 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8 }}
-        >
+       <motion.div
+  className="relative z-20"
+  initial={{ opacity: 0, x: -40 }}
+  animate={{ opacity: 1, x: 0 }}
+  transition={{ duration: 0.8 }}
+>
           <span className="inline-flex rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-2 text-sm font-medium text-emerald-300">
             Trusted Bitcoin & Digital Asset Investment Platform
           </span>
