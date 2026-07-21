@@ -1,15 +1,15 @@
-
 import Navbar from "@/components/layout/Navbar";
-import Hero from "@/components/sections/Hero";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <main>
-        <Hero />
+
+      <main className="pt-32">
+        <h1 className="text-5xl text-red-500">
+          HELLO WORLD
+        </h1>
       </main>
     </>
   );
 }
-
