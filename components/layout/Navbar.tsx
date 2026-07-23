@@ -59,12 +59,12 @@ export default function Navbar() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? "border-b border-slate-800 bg-slate-950/80 backdrop-blur-xl"
-          : "bg-transparent"
-      }`}
-    >
+  className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
+    isScrolled
+      ? "border-b border-slate-800 bg-slate-950"
+      : "bg-transparent"
+  }`}
+>
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
 
         <Logo />
